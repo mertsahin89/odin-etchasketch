@@ -32,7 +32,7 @@ body {
 }
 
 .options-panel {
-  border: 10px solid #e2daeb;
+  
   border-radius: 20px;
   background-color: #e2daeb;
   display: flex;
@@ -64,14 +64,15 @@ input[type="range"]::-webkit-slider-thumb {
 	border-radius:42px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ff8ba7;
+	color:#d0bce8;
 	font-family:Arial;
 	font-size:17px;
 	padding:13px 62px;
 	text-decoration:none;
 }
 .eraser:hover {
-	background-color:#ffc6c7;
+	background-color:#d0bce8;
+  color:#f4effc ;
 }
 .eraser:active {
 	position:relative;
@@ -79,7 +80,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .eraser-activated{
-  background-color: #ffc6c7;
+  color: #f4effc;
+  background-color: #d0bce8;
 }
 .clear{
   background-color: white;
@@ -90,22 +92,48 @@ input[type="range"]::-webkit-slider-thumb {
 	border-radius:42px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ff8ba7;
+	color:#d0bce8;
 	font-family:Arial;
 	font-size:17px;
 	padding:13px 62px;
 	text-decoration:none;
 }
 .reset:hover {
-	background-color:#ffc6c7;
+	background-color:#d0bce8;
+  color:#f4effc ;
 }
 .reset:active {
 	position:relative;
 	top:1px;
 }
 
+.rainbow {
+	background-color:#f4effc;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#d0bce8;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 62px;
+	text-decoration:none;
+}
+.rainbow:hover {
+	background-color:#d0bce8;
+  color:#f4effc ;
+}
+.rainbow:active {
+	position:relative;
+	top:1px;
+}
+.rainbow-activated{
+  color: #f4effc;
+  background-color: #d0bce8;
+}
+
 .slider-wrapper,
 .color-wrapper{
+  color: #d0bce8;
   width: 250px;
   height: 65px;
   border-radius: 15px;
